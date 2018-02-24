@@ -24,6 +24,7 @@ public class DuckSimulator {
         simulate(goose);
 
         System.out.println("\n"+QuackCounter.getQuackCounter());
+
     }
 
     private void simulate(Quackable quackable) {
