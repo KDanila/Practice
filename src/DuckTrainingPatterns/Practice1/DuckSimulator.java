@@ -25,6 +25,15 @@ public class DuckSimulator {
 
         System.out.println("\n"+QuackCounter.getQuackCounter());
 
+        System.out.println("\n Flock:");
+        Flock flock = new Flock();
+        flock.addDuck(mallarDuck);
+        flock.addDuck(mallarDuck);
+        flock.addDuck(mallarDuck);
+        flock.addDuck(mallarDuck);
+        flock.quack();
+
+
     }
 
     private void simulate(Quackable quackable) {
